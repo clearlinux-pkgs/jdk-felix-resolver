@@ -4,6 +4,7 @@ jdk-apache-parent
 jdk-apache-rat
 jdk-easymock3
 jdk-felix
+jdk-felix-osgi-core
 jdk-felix-osgi-foundation
 jdk-glassfish-servlet-api
 jdk-junit4

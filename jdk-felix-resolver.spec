@@ -4,7 +4,7 @@
 #
 Name     : jdk-felix-resolver
 Version  : 1.8.0
-Release  : 1
+Release  : 2
 URL      : https://github.com/apache/felix/archive/org.apache.felix.resolver-1.8.0.tar.gz
 Source0  : https://github.com/apache/felix/archive/org.apache.felix.resolver-1.8.0.tar.gz
 Summary  : No detailed summary available
@@ -43,6 +43,7 @@ BuildRequires : jdk-eclipse-osgi-services
 BuildRequires : jdk-felix
 BuildRequires : jdk-felix-bundlerepository
 BuildRequires : jdk-felix-framework
+BuildRequires : jdk-felix-osgi-core
 BuildRequires : jdk-felix-osgi-foundation
 BuildRequires : jdk-felix-utils
 BuildRequires : jdk-glassfish-servlet-api
@@ -76,7 +77,6 @@ BuildRequires : jdk-mockito
 BuildRequires : jdk-objectweb-asm
 BuildRequires : jdk-objenesis
 BuildRequires : jdk-osgi-compendium
-BuildRequires : jdk-osgi-core
 BuildRequires : jdk-plexus-archiver
 BuildRequires : jdk-plexus-build-api
 BuildRequires : jdk-plexus-cipher
